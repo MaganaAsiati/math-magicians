@@ -19,12 +19,12 @@ $clr-black: #181818;
   display: grid;
   width: 100%;
   grid-template-areas:
-  "Display Display Display Display"
-  "AC Inverter Modulo Divide"
-  "Seven Eight Nine Multiply"
-  "Four Five Six Minus"
-  "One Two Three Plus"
-  "Zero Zero Dot Equal";
+    "Display Display Display Display"
+    "AC Inverter Modulo Divide"
+    "Seven Eight Nine Multiply"
+    "Four Five Six Minus"
+    "One Two Three Plus"
+    "Zero Zero Dot Equal";
   cursor: copy;
 }
 
