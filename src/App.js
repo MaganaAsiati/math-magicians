@@ -1,7 +1,10 @@
+import './scss/App.scss';
+import { Calculator } from './components/Calculator';
+
 function App() {
   return (
     <>
-      <h1>Hello World!</h1>
+      <Calculator />
     </>
   );
 }
