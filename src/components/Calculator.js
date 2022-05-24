@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import '../scss/Calculator.scss';
+import calculate from '../logic/calculate';
 
 const buttons = [
   {
@@ -119,18 +120,57 @@ const buttons = [
   },
 ];
 
-export class Calculator extends Component {
+class Calculator extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
   }
 
+  handleClick = (e) => {
+    this.setState((prevState) => calculate(prevState, e.target.innerText));
+  };
+
   render() {
+    const { total, next, operation } = this.state;
+    let result;
+    if (next === null && operation === null && total === null) {
+      result = 0;
+    }
+
+    if (next !== null && operation === null && total === null) {
+      result = next;
+    }
+
+    if (next === null && operation !== null && total !== null) {
+      result = total + operation;
+    }
+
+    if (next !== null && operation !== null && total !== null) {
+      result = total + operation + next;
+    }
+
+    if (next === null && operation === null && total !== null) {
+      result = total;
+    }
+
     return (
       <div className="Calculator">
-        <span className="Display">0</span>
+        <span className="Display">{result}</span>
         <section className="Keypad">
-          {buttons.map((button) => (<button type="button" key={button.id} className={`Button ${button.name} ${button.color}`}>{button.symbol}</button>))}
+          {buttons.map((button) => (
+            <button
+              type="button"
+              onClick={this.handleClick}
+              key={button.id}
+              className={`Button ${button.name} ${button.color}`}
+            >
+              {button.symbol}
+            </button>
+          ))}
         </section>
       </div>
     );
