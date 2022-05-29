@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <h1
+    className="calcTitle"
+  >
+    Let's do some math!
+  </h1>,
+  <div
+    className="Calculator"
+  >
+    <span
+      className="Display"
+    >
+      0
+    </span>
+    <section
+      className="Keypad"
+    >
+      <button
+        className="Button AC Gray"
+        onClick={[Function]}
+        type="button"
+        value="AC"
+      >
+        AC
+      </button>
+      <button
+        className="Button Inverter Gray"
+        onClick={[Function]}
+        type="button"
+        value="+/-"
+      >
+        +/-
+      </button>
+      <button
+        className="Button Modulo Gray"
+        onClick={[Function]}
+        type="button"
+        value="%"
+      >
+        %
+      </button>
+      <button
+        className="Button Divide Orange"
+        onClick={[Function]}
+        type="button"
+        value="÷"
+      >
+        ÷
+      </button>
+      <button
+        className="Button Seven Gray"
+        onClick={[Function]}
+        type="button"
+        value="7"
+      >
+        7
+      </button>
+      <button
+        className="Button Eight Gray"
+        onClick={[Function]}
+        type="button"
+        value="8"
+      >
+        8
+      </button>
+      <button
+        className="Button Nine Gray"
+        onClick={[Function]}
+        type="button"
+        value="9"
+      >
+        9
+      </button>
+      <button
+        className="Button Multiply Orange"
+        onClick={[Function]}
+        type="button"
+        value="x"
+      >
+        x
+      </button>
+      <button
+        className="Button Four Gray"
+        onClick={[Function]}
+        type="button"
+        value="4"
+      >
+        4
+      </button>
+      <button
+        className="Button Five Gray"
+        onClick={[Function]}
+        type="button"
+        value="5"
+      >
+        5
+      </button>
+      <button
+        className="Button Six Gray"
+        onClick={[Function]}
+        type="button"
+        value="6"
+      >
+        6
+      </button>
+      <button
+        className="Button Minus Orange"
+        onClick={[Function]}
+        type="button"
+        value="-"
+      >
+        -
+      </button>
+      <button
+        className="Button One Gray"
+        onClick={[Function]}
+        type="button"
+        value="1"
+      >
+        1
+      </button>
+      <button
+        className="Button Two Gray"
+        onClick={[Function]}
+        type="button"
+        value="2"
+      >
+        2
+      </button>
+      <button
+        className="Button Three Gray"
+        onClick={[Function]}
+        type="button"
+        value="3"
+      >
+        3
+      </button>
+      <button
+        className="Button Plus Orange"
+        onClick={[Function]}
+        type="button"
+        value="+"
+      >
+        +
+      </button>
+      <button
+        className="Button Zero Gray"
+        onClick={[Function]}
+        type="button"
+        value="0"
+      >
+        0
+      </button>
+      <button
+        className="Button Dot Gray"
+        onClick={[Function]}
+        type="button"
+        value="."
+      >
+        .
+      </button>
+      <button
+        className="Button Equal Orange"
+        onClick={[Function]}
+        type="button"
+        value="="
+      >
+        =
+      </button>
+    </section>
+  </div>,
+]
+`;
