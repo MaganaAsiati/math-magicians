@@ -1,4 +1,4 @@
-import calculate from '../logic/calculate';
+import calculate from './calculate';
 
 describe('To test the functionality of "AC"', () => {
   test('should reset input after pressing "AC"', () => {
