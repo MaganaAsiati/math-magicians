@@ -11,7 +11,7 @@ $clr-black: #181818;
   width: 80vw;
   height: auto;
   background-color: $clr-darkgray;
-  box-shadow: 4px 4px 5px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
   border: 2px solid $clr-darkgray;
 }
 
@@ -146,5 +146,7 @@ $clr-black: #181818;
 @media screen and (min-width: 768px) {
   .Calculator {
     width: 40vw;
+    margin: 4rem 4rem 0 auto;
+    float: right;
   }
 }
