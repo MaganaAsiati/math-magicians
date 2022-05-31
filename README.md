@@ -1,5 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/465a863e-33ac-454b-abde-c842a9618266/deploy-status)](https://app.netlify.com/sites/app-math-magicians/deploys)
+
 # Math Magicians
 
 > "Math Magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
@@ -15,7 +17,7 @@
 - [x] Code Editor: VS Code
 
 ## Website Mockup 📱 💻 🖥️
-
+![app_screenshot](https://user-images.githubusercontent.com/98527559/171208288-2976f51c-01fa-493e-9ad6-9e1e07fe61f2.png)
 
 ## Screenshots 📸
 Screenshots can be found in the repository.
@@ -26,8 +28,7 @@ Check the live demo [github pages](https://mavericks-db.github.io/math-magicians
 
 Check the live demo [heroku](https://app-math-magicians.herokuapp.com/)👈
 
-Check the live demo [netlify](https://app-math-magicians.netlify.app/)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/465a863e-33ac-454b-abde-c842a9618266/deploy-status)](https://app.netlify.com/sites/app-math-magicians/deploys)
+Check the live demo [netlify](https://app-math-magicians.netlify.app/)👈
 
 ## Getting Started
 
