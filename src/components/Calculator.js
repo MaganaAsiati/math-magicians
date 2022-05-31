@@ -129,7 +129,7 @@ const Calculator = () => {
   });
 
   const handleClick = (e) => {
-    const display = () => calculate(prevState, e.target.innerText);
+    const display = () => calculate(prevState, e.target.innerHTML);
     setState(display);
   };
 
@@ -167,6 +167,7 @@ const Calculator = () => {
               onClick={handleClick}
               key={button.id}
               className={`Button ${button.name} ${button.color}`}
+              value={button.symbol}
             >
               {button.symbol}
             </button>
