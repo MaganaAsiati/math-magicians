@@ -52,7 +52,6 @@ describe('To test the functionality of calculator component', () => {
     expect(screen.getByText('-91')).toBeTruthy();
   });
 
-
   test('should Show 11 if buttons 1,2,1,+,1 and 1 are clicked', () => {
     render(<Calculator />);
 
