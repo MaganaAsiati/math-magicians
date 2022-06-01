@@ -24,8 +24,6 @@ Screenshots can be found in the repository.
 
 ## Live Demo 🔗
 
-Check the live demo [github pages](https://mavericks-db.github.io/math-magicians/)👈
-
 Check the live demo [heroku](https://app-math-magicians.herokuapp.com/)👈
 
 Check the live demo [netlify](https://app-math-magicians.netlify.app/)👈
